@@ -1,0 +1,123 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fffaec;
+}
+
+.container {
+    width: 80%;
+    margin-top: 200px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.service {
+    background-color: black;
+    padding: 10px;
+    max-width: 160px;
+    line-height: 1.4;
+    border-radius: 16px;
+}
+
+.service h3 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #6c757d;
+}
+ 
+.button {
+    display: inline-block;
+    color: #fff;
+    background: #3f51dc;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+    position: inherit;
+}
+
+.button:hover {
+    background: transparent;
+    border: 1px solid #3f51dc;
+    transform: translateX(8px);
+    color: #3f51dc;
+}
+header h1{
+font-family: 'MuseoModerno', cursive;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+ }
+ header.sticky{
+    padding: 8px 17%;
+    background: transparent;
+    color: blur(35px);
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'MuseoModerno', cursive;
+ }
+ .navlist{
+    display: flex;
+ }
+ .navlist a{
+    color: #000000;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+ }
+ .navlist a:hover{
+    border-bottom: 2px solid #3f51dc;
+    color: #3f51dc;
+ }
+ .nav-right{
+    display: flex;
+    align-items: center;
+ }
+ .nav-btn{
+   display: inline-block;
+   color: #fff;
+   background: #3f51dc;
+   border: 1px solid transparent;
+   padding: 12px 30px;
+   line-height: 1.4;
+   font-size: 14px;
+   font-weight: 500;
+   border-radius: 30px;
+   text-transform: uppercase;
+   transition: all .55s ease;
+ }
+ .nav-btn:hover{
+   background: transparent;
+   border: 2px solid #3f51dc;
+   transform: translateX(8px);
+   color: #3f51dc;
+ }

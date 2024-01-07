@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create A Server</title>
+    <link rel="stylesheet" href="Server.css">
+
+    <link rel="website icon" type="png" href="Screenshot_32-transformed.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=VT323&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">PixelMiner</a>
+
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Team</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <h1>Create A Server</h1>
+        <form id="server-form">
+            <label for="server-name">Server Name</label>
+            <input type="text" id="server-name" name="server-name" required>
+            
+            <label for="game">Game</label>
+            <select id="game" name="game">
+                <option value="game3">Select a game</option>
+                <option value="game1">PocketMine</option>
+                <option value="game2">Java</option>
+                <option value="game3">Bedrock</option>
+            </select>
+            
+            <a href="Service.html" class="button"><p style='text-align:center'>Create</p></a>
+        </form>
+    </div>
+    <script src="Server.js"></script>
+</body>
+</html>
